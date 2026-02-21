@@ -1,0 +1,27 @@
+# Breakable Server
+
+Learning concepts: Scalability · Availability · Reliability · Latency vs Throughput vs Bandwidth · Client-Server Architecture
+
+## What This Is
+An Express API with fast and slow endpoints, load-tested with autocannon to observe bottlenecks and understand system limits firsthand.
+
+## What I Built
+- Basic REST API with instant and heavy-task endpoints
+- Load testing suite comparing endpoint performance
+- Documentation of observed breakpoints and theoretical fixes
+
+## Key Learnings
+- What happens when a Node.js server gets overwhelmed
+- The difference between latency (time per request) and throughput (requests per second)
+- Why client-server separation matters for security and failure isolation
+
+## Tech Stack
+Node.js · Express · autocannon
+
+## Run It
+\`\`\`bash
+npm install
+npm start
+# In another terminal:
+npm run load-test
+\`\`\`
