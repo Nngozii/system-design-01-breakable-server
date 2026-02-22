@@ -1,0 +1,28 @@
+{
+  "name": "the-breakable-server",
+  "version": "1.0.0",
+  "description": "Learning concepts: Scalability · Availability · Reliability · Latency vs Throughput vs Bandwidth · Client-Server Architecture",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nngozii/system-design-01-breakable-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nngozii/system-design-01-breakable-server/issues"
+  },
+  "homepage": "https://github.com/Nngozii/system-design-01-breakable-server#readme",
+  "dependencies": {
+    "autocannon": "^8.0.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "nodemon": "^3.1.14"
+  }
+}
