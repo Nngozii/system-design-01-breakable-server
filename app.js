@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use("/", (req, res, next) => {
-  res.send("Service home");
+  res.send("Service Home");
 });
 
 const port = process.env.PORT;
