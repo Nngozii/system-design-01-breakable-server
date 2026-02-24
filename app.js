@@ -1,6 +1,5 @@
 const express = require("express");
 const helmet = require("helmet");
-const autocannon = require('autocannon')
 
 require("dotenv").config();
 
