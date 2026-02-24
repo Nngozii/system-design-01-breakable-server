@@ -24,4 +24,6 @@ npm start
 ## Run Autocannon on the terminal
 #### sample command:
 autocannon -m GET -d 5 -c 1 -p 1 http://localhost:xxxx/
-Check out the documentation - [autocannon](https://www.npmjs.com/package/autocannon)
+Check out the documentation - [autocannon]
+
+(https://www.npmjs.com/package/autocannon)
