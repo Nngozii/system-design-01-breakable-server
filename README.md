@@ -3,7 +3,7 @@
 Learning concepts: Scalability · Availability · Reliability · Latency vs Throughput vs Bandwidth · Client-Server Architecture
 
 ## What This Is
-An extremely Express API with fast and slow endpoints, load-tested with autocannon to observe bottlenecks and understand system limits firsthand.
+An extremely simple Express API with fast and slow endpoints, load-tested with autocannon to observe bottlenecks and understand system limits firsthand.
 
 ## What I Built
 - Basic REST API with instant and heavy-task endpoints
@@ -21,3 +21,6 @@ Node.js · Express · autocannon
 ## Run Server
 npm start
 
+## Run Autocannon on the terminal
+#### sample command:
+autocannon -m GET -d 5 -c 1 -p 1 http://localhost:xxxx/
