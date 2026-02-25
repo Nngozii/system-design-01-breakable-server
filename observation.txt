@@ -1,0 +1,1 @@
+Latency increases greatly with more connections, but throughput doesn't increase that much, not really significant compared to the jump of latency. 
